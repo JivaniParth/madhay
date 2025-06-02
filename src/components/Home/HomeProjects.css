@@ -1,0 +1,11 @@
+.home-projects{
+    padding: 2vh 4vw;
+}
+
+.home-projects h2{
+    font-family: Montserrat, sans-serif;
+    padding: 3vh 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #333333;
+}
