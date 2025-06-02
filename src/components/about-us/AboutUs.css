@@ -1,0 +1,284 @@
+.about-us-hero-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("/ej-yao-D46mXLsQRJw-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-hero-container {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  color: white;
+  padding: 10px 15px 25px;
+  bottom: 10vh;
+  left: 0vw;
+  z-index: 1;
+}
+
+.about-us-hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.about-us-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-hero-content h1 {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  text-align: center !important;
+  font-size: 3rem;
+}
+
+.our-story-section {
+  padding: 2vh 4vw;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-story-content {
+  margin-top: 20px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 20px;
+}
+
+.our-story-section h2 {
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  text-align: center !important;
+}
+
+.our-mission-section {
+  background-image: url("/danist-soh-8Gg2Ne_uTcM-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Poppins, sans-serif;
+  position: relative;
+  padding: 2vh 4vw;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.our-mission-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Ensure overlay is behind text content */
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the alpha for darkness */
+}
+
+.our-mission-section h2 {
+  margin-bottom: 20px;
+  z-index: 1;
+  text-align: center !important;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+}
+
+.our-mission-section p {
+  margin-bottom: 2vh;
+  z-index: 1;
+}
+
+.our-mission-section ul {
+  z-index: 1;
+}
+
+.our-mission-section li {
+  margin-bottom: 2vh;
+}
+
+.our-approach-section {
+  margin: 2vh 4vw;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.our-approach-section h2 {
+  margin-bottom: 20px;
+  text-align: center !important;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+}
+
+.our-approach-section li {
+  margin-bottom: 2vh;
+}
+
+.why-choose-us-section {
+  margin: 2vh 4vw;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.why-choose-us-section h2 {
+  margin-bottom: 20px;
+  text-align: center !important;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+}
+
+.why-choose-us-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+.why-choose-us-section li {
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.why-choose-us-section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+.why-choose-us-section .testimonial {
+  font-style: italic;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 5px solid #61dafb;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us-section .testimonial p {
+  margin-bottom: 10px;
+}
+
+.why-choose-us-section .testimonial cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.about-contact-us-section {
+  margin: 2vh 4vw;
+  text-align: justify;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-contact-form form {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 15vw;
+}
+
+.about-contact-form input[type="text"],
+.about-contact-form input[type="email"],
+.about-contact-form textarea {
+  padding: 10px;
+  margin: 2vh 1vw;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Poppins, sans-serif;
+}
+
+.about-contact-form button {
+  width: 130px;
+  margin: 2vh 1vw;
+  font-family: Poppins, sans-serif;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.about-contact-form button:hover{
+  background-color: #ff4c4c;
+}
+
+.about-contact-us-section h2 {
+  text-align: center !important;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  margin: 10vh 2vw;
+}
+
+.about-contact-us-section p {
+  font-family: Poppins, sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-contact-us-section .about-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.about-contact-us-section .about-contact-info p {
+  font-family: Poppins, sans-serif;
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.about-contact-us-section .about-contact-info strong {
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-contact-us-section .about-contact-form textarea {
+  resize: none;
+}
+
+@media (max-width: 768px) {
+  .about-contact-us-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .about-contact-us-section h2 {
+    grid-column: 1 / -1;
+  }
+}
