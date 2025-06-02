@@ -1,0 +1,15 @@
+.home-about-us {
+    padding: 2vh 4vw;
+}
+
+.home-about-us h2{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    padding: 3vh 0;
+    color: #333333;
+}
+
+.home-about-us p{
+    font-family: Poppins, sans-serif;
+}
